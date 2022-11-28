@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Farrukh997/order_summary_component)
-- Live Site URL: [Add live site URL here](https://farrukh997.github.io/order_summary_component/)
+- Solution URL: [Link to this repository](https://github.com/Farrukh997/order_summary_component)
+- Live Site URL: [Link to live site](https://farrukh997.github.io/order_summary_component/)
 
 ## My process
 
