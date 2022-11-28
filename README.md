@@ -45,8 +45,8 @@ CSS flex styling model and grid style model.
 
 ### Useful resources
 
-- [Example resource 1](https://www.https://developer.mozilla.org/) - This site helped me with HTML,CSS documentation.
-- [Example resource 2](https://www.google.com) - As always google helped me with lots questions.
+- [Mozilla Developer Network](https://developer.mozilla.org/) - This site helped me with HTML,CSS documentation.
+- [Google](https://www.google.com) - As always google helped me with lots questions.
 
 ## Author
 
