@@ -1,0 +1,155 @@
+@import url('https://fonts.google.com/specimen/Red+Hat+Display');
+
+:root {
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: repeat space;
+    background-color: #DFE9FF;
+}
+
+.container {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    right: 10%;
+    bottom: 10%;
+    margin: 0 auto;
+    max-width: 380px;
+}
+
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+    transition: 0.3s;
+    margin: 0 auto;
+}
+
+.card:hover {
+    box-shadow: 0 4px 20px 0 rgba(34, 68, 123, 0.2);
+}
+
+.card-top {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: block;
+}
+
+
+.card-title {
+    font-weight: 900;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.card-description {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+}
+
+.card-content {
+    padding: 16px 24px 16px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-plan {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    display: flex;
+    padding: 16px;
+    margin-bottom: 16px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-button {
+    border: none;
+    align-content: center;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    padding: 12px 8px;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.card-button:hover {
+    box-shadow: 0 4px 20px 0 rgba(34, 68, 123, 0.2);
+    cursor: pointer;
+}
+
+.button-borderless {
+    border: none;
+    background: none;
+    margin: auto;
+    padding: 16px;
+    border: none;
+    color: hsl(224, 23%, 55%);
+    display: inline-block;
+    font-weight: 700;
+}
+
+.button-borderless:hover {
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+
+#plan {
+    margin-left: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#image-logo {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+#price {
+    display: inline-block;
+    margin-left: 8px;
+}
+
+#change {
+    margin-right: 8px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#plan-title {
+    font-weight: 700;
+}
+
+#plan-price {
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.attribution {
+    margin-top: auto;
+    position: absolute;
+    left: 50px;
+    right: 50px;
+    bottom: 10px;
+    display: table;
+    margin: 0 auto;
+}
